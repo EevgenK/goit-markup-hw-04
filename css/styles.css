@@ -142,16 +142,17 @@ gap: 50px;
     color: var(--accent-text-color);
 }
 
-/* .subject-mail-link, .subject-phone-link {
+.subject-mail-link, .subject-phone-link {
     display: flex;
 }
 
-.subject-mail-link::before {
+/* .subject-mail-link::before {
     content: '';
     background-image: url(../images/svg/envelope.svg);
     width: 16px;
     height: 12px;
-    background-color: currentColor;
+    background-color: none;
+    stroke: currentColor;
     align-items: baseline;
     margin-right: 10px;
 }
@@ -240,8 +241,39 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 max-width: 270px;
 }
+
+/* benefits-icons */
+
+.benefits-list-item::before {
+    content: '';
+    display: block;
+    height: 120px;
+    border-style: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    background-color: var(--light-grey-color);
+}
+
+.icon-antena::before {
+    background-image: url(../images/svg/antenna.svg);
+    
+}
+
+.icon-clock::before {
+    background-image: url(../images/svg/clock.svg);
+}
+.icon-diagram::before {
+    background-image: url(../images/svg/diagram.svg);
+}
+
+    .icon-astronaut::before {
+        background-image: url(../images/svg/astronaut.svg);
+    }
+
+
 /* activity */
-.activity-title, .team-title {
+.activity-title, .team-title, .clietnt-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
