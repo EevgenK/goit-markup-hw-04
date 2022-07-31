@@ -145,6 +145,7 @@ body {
 .subject-mail-link,
 .subject-phone-link {
 	display: flex;
+	align-items: center;
 }
 
 .subject-contact-icon {
@@ -156,7 +157,7 @@ body {
 
 /* hero */
 .hero {
-	width: 1600px;
+	max-width: 1600px;
 	background-color: var(--bg-color);
 	margin-right: auto;
 	margin-left: auto;
@@ -232,7 +233,7 @@ body {
 	content: "";
 	display: block;
 	height: 120px;
-	background-size: contain;
+	background-size: 70px;
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-bottom: 30px;
@@ -357,6 +358,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	border: 1px solid var(--border-icon-color);
+	color: rgba(175, 177, 184, 1);
 	border-radius: 4px;
 }
 
